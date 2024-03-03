@@ -1,7 +1,11 @@
 # test-automation
+
 CS458 PROJECT # 1
+
 Muhammed İkbal Doğan 21702990
+
 Göksu Şenerkek 21803341
+
 The project is structured in 3 directories:
 backend
 frontend
