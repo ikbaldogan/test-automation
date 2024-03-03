@@ -1,5 +1,7 @@
 # test-automation
 CS458 PROJECT # 1
+Muhammed İkbal Doğan 21702990
+Göksu Şenerkek 21803341
 The project is structured in 3 directories:
 backend
 frontend
@@ -26,8 +28,8 @@ Test users:
 
 
 Test cases:
-1- Succesful login with valid credentials
+1- Successful login with valid credentials
 2- Unsuccessful login with invalid credentials
-3- Unsuccesful login with copy pasting password
+3- Unsuccessful login with copy pasting password
 4- Sql injection
-5- After succesful login, unsuccesful login with going backward and submitting the form again.
+5- After succesful login, unsuccessful login with going backward and submitting the form again.

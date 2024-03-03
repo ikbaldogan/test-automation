@@ -6,7 +6,6 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     var email = document.getElementById('email').value;
     var password = document.getElementById('password').value;
     
-    // Simulate backend request
     fetch(backendURL +'/login', {
         method: 'POST',
         headers: {
@@ -29,15 +28,14 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
 function handleCredentialResponse(response) {
     const credential = response.credential;
-    // Check if the response contains the Google ID token
+
     if (credential) {
-        // Redirect to success.html
+
         window.location.href = '/success.html';
     } else {
-        // Handle error or do nothing
+
         console.error('Google Sign-In failed');
     }
 }
 
-// Other code for handling login form submission, etc.
 
