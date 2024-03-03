@@ -32,8 +32,14 @@ Test users:
 
 
 Test cases:
+
 1- Successful login with valid credentials
+
 2- Unsuccessful login with invalid credentials
+
 3- Unsuccessful login with copy pasting password
+
 4- Sql injection
+
 5- After succesful login, unsuccessful login with going backward and submitting the form again.
+
